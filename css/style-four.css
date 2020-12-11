@@ -14,9 +14,9 @@ body {
     width: 80%;
     max-width: 600px;
     margin: auto;
-    background: #fdfdfd;
+    background: #f3f5f9;
     color: #333;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     
 }
 
@@ -25,9 +25,9 @@ body {
 h1,h2 {
     font-weight: normal;
     letter-spacing: 3px;
-    color: darkred;
+    color: darkorange;
     text-align: center;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', serif;
 }
 
 p, blockquote {
@@ -50,7 +50,7 @@ h2 {
 
 blockquote {
     font-size: 1.1em;
-    color: darkred;
+    color: orangered;
     hanging-punctuation: first;
     text-indent: -0.46em;
     
@@ -81,10 +81,10 @@ header p {
 }
 
 hr {
-    margin: 5em;
-    height: 1px;
-    background-color: darkred;
-    color: darkred;
+    margin: 1em;
+    height: 0.2em;
+    background-color: darkorange;
+    color: orangered;
     border: 0 none;
     
 
@@ -147,27 +147,58 @@ td {
 
     font-family: sans-serif;
 }
+/*------ STYLING IMAGES ------ */
+img {
+    display: block;
+    margin: 3em 0;
+    padding: 0;
+    max-width: 100%;
+}
+
 
 /*------ NAVAGATION ------ */
-.vertical-menu {
-  width: 200px; /* Set a width if you like */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: darkorange;
+    padding: 2em 0;
+    font-size: 1.2em;
+    text-align:center;
+    font-family: 'Roboto'
+
+}
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+nav ul li {
+    display: inline;
+    margin: 38px;
+    background; none;
+}
+* nav a:link {
+    color: floralwhite;
+    text-decoration: none;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align:center;
+    
+    
 }
 
-.vertical-menu a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
+nav a:hover {
+    color: floralwhite;
+    border-bottom: none;
+    
 }
 
-.vertical-menu a:hover {
-  background-color: #ccc; /* Dark grey background on mouse-over */
-}
-
-.vertical-menu a.active {
-  background-color: #4CAF50; /* Add a green color to the "active/current" link */
-  color: white;
+nav a:visited {
+    color: floralwhite
 }
 
 
