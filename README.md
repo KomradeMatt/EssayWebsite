@@ -1,4 +1,4 @@
 IXD102 Web Essay
 =====================
 
-[Web Essay Version 2 Horizontal Nav bar](github.com/KomradeMatt/EssayWebsite/blob/main/webessay2.html)
+[Web Essay Version Horizontal Nav bar](https://komradematt.github.io/EssayWebsite/webessay2)
