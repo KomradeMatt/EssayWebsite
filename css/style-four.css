@@ -81,8 +81,8 @@ header p {
 }
 
 hr {
-    margin: 1em;
-    height: 0.2em;
+    margin: 2em;
+    height: 0.1em;
     background-color: darkorange;
     color: orangered;
     border: 0 none;
