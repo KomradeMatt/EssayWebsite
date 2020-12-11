@@ -1,0 +1,205 @@
+/*------ CSS Reset ------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height@ lem;
+}
+
+
+/*------ MAIN STYLING ------*/
+
+body {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background: #f3f5f9;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/*------ TYPOGRAHPY ------*/
+
+h1,h2 {
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: darkorange;
+    text-align: center;
+    font-family: 'Roboto', serif;
+}
+
+p, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4.1em;
+    margin-top: 3em;
+    margin-bottom: 0.1em;
+    
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+blockquote {
+    font-size: 1.1em;
+    color: orangered;
+    hanging-punctuation: first;
+    text-indent: -0.46em;
+    
+}
+
+blockquote cite {
+    font-size: 0.75em;
+    color: black;
+}
+
+.intro {font-size: 1.25em}
+
+.dropcap {
+    float: left;
+    font-size: 4.7em;
+    line-height: 0.5em;
+    margin-right: 0px;
+}
+
+header h2 {
+    font-style: italic;
+    margin-top: 0.6em;
+    margin-bottom: 1.2em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+hr {
+    margin: 1em;
+    height: 0.2em;
+    background-color: darkorange;
+    color: orangered;
+    border: 0 none;
+    
+
+}
+
+
+.leader {
+    text-transform: uppercase;
+    color: darkred
+}
+
+/*------ FOOTER ------ */
+
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 4em 0 8 2;
+}
+
+/*------ STYLING LINKS ------ */
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    border-bottom: 1px dotted;
+}
+
+/*------ STYLING TABLE ------ */
+
+table  {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+caption {
+    margin: 1.5em 0;
+    text-transform: Uppercase;
+}
+
+th {
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background-color:darkred
+}
+
+th, td {
+    padding: 0.6em;
+}
+
+td {
+
+    font-family: sans-serif;
+}
+/*------ STYLING IMAGES ------ */
+img {
+    display: block;
+    margin: 3em 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+/*------ NAVAGATION ------ */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: darkorange;
+    padding: 2em 0;
+    font-size: 1.2em;
+    text-align:center;
+    font-family: 'Roboto'
+
+}
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+nav ul li {
+    display: inline;
+    margin: 38px;
+    background; none;
+}
+* nav a:link {
+    color: floralwhite;
+    text-decoration: none;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align:center;
+    
+    
+}
+
+nav a:hover {
+    color: floralwhite;
+    border-bottom: none;
+    
+}
+
+nav a:visited {
+    color: floralwhite
+}
+
+
+
