@@ -36,14 +36,14 @@ p, blockquote {
 }
 
 h1 {
-    font-size: 4.1em;
+    font-size: 4.5em;
     margin-top: 3em;
     margin-bottom: 0.1em;
     
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -133,11 +133,11 @@ caption {
 }
 
 th {
-    color: white;
-    text-transform: uppercase;
+    color: black;
+    text-transform: capitalize;
     font-weight: normal;
     text-align: left;
-    background-color:darkred
+    background-color: rgba(255, 50, 0, 0.1);
 }
 
 th, td {
@@ -152,8 +152,9 @@ td {
 img {
     display: block;
     margin: 3em 0;
-    padding: 0;
+    padding: 1em;
     max-width: 100%;
+    text-align: center;
 }
 
 
